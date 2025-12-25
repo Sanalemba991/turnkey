@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Variants } from "framer-motion";
-import Ban from "../../../public//images/secondban.png"
-import Ban2 from "../../../public/images/ban.png"
+import Ban from "../../../public/Images/secondban.png"
+import Ban2 from "../../../public/Images/ban.png"
 import Didi from "../../../public/Images/ddd.png"
 export default function LuckyFlowSection() {
   // Animation variants

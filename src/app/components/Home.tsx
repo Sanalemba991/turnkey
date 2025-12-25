@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Variants } from "framer-motion";
 import Lady from "../../../public/Images/lady.png"
-import Ban from "../../../public/Images/secondban.png"
+import Ban from "../../../public/Images/ban.png"
 export default function HeroSection() {
   // Animation variants
   const containerVariants: Variants  = {

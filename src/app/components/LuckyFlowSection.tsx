@@ -3,6 +3,9 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Variants } from "framer-motion";
+import Ban from "../../../public//images/secondban.png"
+import Ban2 from "../../../public/images/ban.png"
+import Didi from "../../../public/Images/ddd.png"
 export default function LuckyFlowSection() {
   // Animation variants
   const containerVariants: Variants  = {
@@ -52,7 +55,7 @@ export default function LuckyFlowSection() {
     <section className="relative w-full min-h-screen overflow-hidden flex items-center justify-center">
       {/* Banner Background Images */}
       <Image
-        src="/Images/secondban.png"
+        src={Ban.src}
         alt="Lucky Flow Banner Second"
         fill
         priority
@@ -95,7 +98,7 @@ export default function LuckyFlowSection() {
           {/* Center Character Image */}
           <div className="relative flex items-center justify-center">
             <Image
-              src="/images/ban.png"
+              src={Ban2.src}
               alt="Character Background"
               width={700}
               height={600}
@@ -112,7 +115,7 @@ export default function LuckyFlowSection() {
               style={{ zIndex: 10 }}
             >
               <Image
-                src="/images/ddd.png"
+                src={Didi.src}
                 alt="Character"
                 width={350}
                 height={350}

@@ -4,7 +4,6 @@ import GameSection from "./components/GameSection";
 import LuckyFlowSection from "./components/LuckyFlowSection";
 import ProvidersRow from "./components/ProvidersRow";
 import GameGrid from "./components/GameGrid";
-import ContactSection from "./components/ContactSection";
 export const metadata: Metadata = {
   title:
     "Trunkey – Turnkey Worldwide Gaming Platform | Online Games, Global Play & Digital Entertainment",
@@ -56,7 +55,6 @@ export default function Pages() {
       <LuckyFlowSection />
       <GameGrid />
       <ProvidersRow />
-      <ContactSection />
     </>
   );
 }

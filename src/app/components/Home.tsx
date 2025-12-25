@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Variants } from "framer-motion";
+import Lady from "../../../public/Images/lady.png"
+import Ban from "../../../public//images/ban.png"
 export default function HeroSection() {
   // Animation variants
   const containerVariants: Variants  = {
@@ -127,7 +129,7 @@ export default function HeroSection() {
 
           {/* Casino Background – stays close on left */}
           <Image
-            src="/images/ban.png"
+            src={Ban.src}
             alt="casino-background"
             width={540}
             height={420}
@@ -142,7 +144,7 @@ export default function HeroSection() {
             transition={{ duration: 5, delay: 1 }}
           >
             <Image
-              src="/images/lady.png"
+              src={Lady.src}
               alt="casino-lady"
               width={340}
               height={290}
